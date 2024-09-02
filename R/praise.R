@@ -16,7 +16,6 @@ praise <- function(name, punctuation = "!"){
   glue::glue("You're the best, {name}{punctuation}")
 }
 
-
 #devtools::document() and devtools::script() is run in the console not script
 # for MIT license
 #usethis::use_mit_license("Jane Doe")
